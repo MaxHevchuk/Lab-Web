@@ -8,6 +8,7 @@
 .images{
     padding-top: 10px;
     padding-left: 10px;
+    
 }
 
 /* headlines */
@@ -26,6 +27,7 @@
     border-style: solid;
     border-width: 3px;
     border-color: black;
+    
 }
 #id1{
   color: red;
@@ -44,4 +46,29 @@
 }
 #id6{
     color: blueviolet;
+}
+
+
+/* special */
+
+[special]{
+    display: flex;
+    justify-content: space-between;
+}
+
+[special__item]{
+    width: 24%;
+    padding-top: 10px;
+    border-top: 3px solid #333;
+    border-bottom: 3px dotted darkblue;
+
+    font-size: 25px;
+    text-shadow: crimson;
+    text-decoration: none;
+    color: white;
+
+    transition: color .2s linear;
+}
+[special__item]:hover {
+    color: rgb(30, 247, 59);
 }
