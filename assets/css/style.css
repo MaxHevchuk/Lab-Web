@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+
+    background-image: url(/assets/images/782301-large-neutral-backgrounds-2560x1440.jpg);
+}
+
+/* images */
+.images{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+/* headlines */
+.headlines{
+    margin: auto;
+
+    font-style: arial;
+    font-size: larger;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+
+    background-image: url(/assets/images/abstract-blue-geometric-shapes-background_1035-17545.jpg);
+    max-width: 25%;
+
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+#id1{
+  color: red;
+}
+#id2{
+    color: orange;
+}
+#id3{
+    color: yellow;
+}
+#id4{
+    color: green;
+}
+#id5{
+    color: blue;
+}
+#id6{
+    color: blueviolet;
+}
