@@ -4,7 +4,7 @@
     text-decoration: none;
 }
 body{
-    background-image: url(/assets/img/pc/background3.jpg);
+    background-image: url(../img/pc/background.jpg);
 }
 
 p{
@@ -82,14 +82,11 @@ p{
     background-color: rgba(32, 178, 170, 0.2);
 }
 
-/*      mobile       */
-
-
 
 /*      tablet       */
 @media screen and (max-width: 768px){
     body{
-        background-image: url(/assets/img/tablet/background2.jpg);
+        background-image: url(../img/tablet/background2.jpg);
     }
     .nav, .main__center, .main__bottom{
         flex-wrap: wrap;
@@ -101,9 +98,12 @@ p{
             color: white;
     }
 }
+
+/*      mobile       */
+
 @media screen and (max-width: 480px){
     body{
-        background-image: url(/assets/img/phone/background2.jpg);
+        background-image: url(../img/phone/background2.jpg);
     }
     .nav__itm a{
         font-size: 45px;
